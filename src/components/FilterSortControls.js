@@ -18,8 +18,9 @@ function FilterSortControls({ filterType, setFilterType, sortType, setSortType }
     return (
         <div style={styles.controls}>
             <div>
-                <label>Filter: </label>
+                <label htmlFor="filter">Filter: </label>
                 <select
+                    id='filter'
                     value={filterType}
                     onChange={(e) => setFilterType(e.target.value)}
                     style={selectStyle}
@@ -32,8 +33,9 @@ function FilterSortControls({ filterType, setFilterType, sortType, setSortType }
                 </select>
             </div>
             <div>
-                <label>Sort: </label>
+                <label htmlFor='sort'>Sort: </label>
                 <select
+                    id='sort'
                     value={sortType}
                     onChange={(e) => setSortType(e.target.value)}
                     style={selectSortStyle}
