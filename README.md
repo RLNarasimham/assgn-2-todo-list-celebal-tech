@@ -21,35 +21,34 @@ This is a simple and responsive **Todo List application** built with **React.js*
 todolist-app/
 ├── node_modules/
 ├── public/
-│ └── index.html
+│   └── index.html
 ├── src/
-│ ├── __tests__/
-│ │ ├── FilterSortControls.test.js
-│ │ ├── TaskForm.test.js
-│ │ ├── TaskItem.test.js
-│ │ └── ToDoList.test.js
-│ ├── components/
-│ │ ├── FilterSortControls.js
-│ │ ├── TaskForm.js
-│ │ ├── TaskItem.js
-│ │ └── ToDoList.js
-│ ├── hooks/
-│ │ ├── useFilteredSortedTasks.js
-│ │ └── useLocalStorage.js
-│ ├── styles/
-│ │ └── styles.js
-│ ├── utils/
-│ │ └── storage.js
-│ ├── App.js
-│ ├── App.test.js
-│ ├── App.css
-│ ├── index.js
-│ └── index.css
+│   ├── tests/
+│   │   ├── FilterSortControls.test.js
+│   │   ├── TaskForm.test.js
+│   │   ├── TaskItem.test.js
+│   │   └── ToDoList.test.js
+│   ├── components/
+│   │   ├── FilterSortControls.js
+│   │   ├── TaskForm.js
+│   │   ├── TaskItem.js
+│   │   └── ToDoList.js
+│   ├── hooks/
+│   │   ├── useFilteredSortedTasks.js
+│   │   └── useLocalStorage.js
+│   ├── styles/
+│   │   └── styles.js
+│   ├── utils/
+│   │   └── storage.js
+│   ├── App.js
+│   ├── App.test.js
+│   ├── App.css
+│   ├── index.js
+│   └── index.css
 ├── .gitignore
 ├── package.json
 ├── README.md
 └── package-lock.json
-
 
 ---
 
